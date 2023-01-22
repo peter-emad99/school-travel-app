@@ -1,0 +1,33 @@
+:root {
+  /* Primary colors*/
+  --very_dark_desaturated_blue: hsl(238, 29%, 16%);
+  --soft_red: hsl(14, 88%, 65%);
+  /* Gradient colors*/
+  --soft_violet: hsl(273, 75%, 66%);
+  --soft-blue: hsl(240, 73%, 65%);
+  --peter-color-test: red;
+  /* Neutral colors*/
+
+  --very_dark_grayish_blue: hsl(237, 12%, 33%);
+  --dark_grayish_blue: hsl(240, 6%, 50%);
+  --light_grayish_blue: hsl(240, 5%, 91%);
+
+  --white: hsl(0, 0%, 100%);
+  --black: hsl(0, 0%, 0%);
+  --gold: hsl(49, 100%, 64%);
+  /* ------------------------- project colors variable ------------------------ */
+  --text--500: var(--very_dark_desaturated_blue);
+  --text--400: var(--very_dark_grayish_blue);
+  --text--300: var(--dark_grayish_blue);
+  --text--100: var(--light_grayish_blue);
+  --text--hover: var(--soft_red);
+
+  --bg--primary: var(--white);
+  --bg_gradient: linear-gradient(
+    to bottom,
+    var(--soft_violet),
+    var(--soft-blue)
+  );
+}
+
+$color-red: red;

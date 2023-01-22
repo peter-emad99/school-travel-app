@@ -1,0 +1,12 @@
+@use "../util" as *;
+
+:root {
+	--font-default-1: Arial, sans-serif;
+	--font-default-2: "Times New Roman", Times, serif;
+	/*design Fonts*/
+	--font-Heading: "Big Shoulders Display", cursive;
+	--font-Body: "Lexend Deca", sans-serif;
+	/*Font sizes*/
+	--fs-1: #{rem(16)};
+	--fs-2: 2rem;
+}
