@@ -2,4 +2,4 @@
 
 this is simple project using vue and vue-router library
 
-## you con try it out [here]()
+## you con try it out [here](https://school-travel-app.netlify.app/)
