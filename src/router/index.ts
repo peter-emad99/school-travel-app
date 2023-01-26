@@ -58,12 +58,15 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes,
   scrollBehavior: (to, from, savedPosition) => {
-    return (
-      savedPosition ||
-      new Promise((resolve) => {
-        setTimeout(() => resolve({ top: 0, behavior: "smooth" }), 300);
-      })
-    );
+    console.log(to.path);
+    if (!to.params.expSlug) {
+      return (
+        savedPosition ||
+        new Promise((resolve) => {
+          setTimeout(() => resolve({ top: 0, behavior: "smooth" }), 300);
+        })
+      );
+    }
   },
 });
 
